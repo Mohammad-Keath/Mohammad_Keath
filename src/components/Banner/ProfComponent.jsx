@@ -4,7 +4,7 @@ import { AiOutlineGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
 import ghyath from '../../assets/ghyath.jpeg'
-import CV from '../../assets/MHD-KEATH-2023-AUG.pdf'
+import CV from '../../assets/MHD-KEATH-2023-SEP.pdf'
 
 
 const ProfComponent = () => {
