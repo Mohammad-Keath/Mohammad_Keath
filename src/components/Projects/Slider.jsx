@@ -5,27 +5,27 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import styled from 'styled-components';
 let data = [
   {
-    img : "https://res-console.cloudinary.com/dau39qnjp/thumbnails/v1/image/upload/v1695223568/cG9ydGZvbGlvL2Zyb250ZW5kX21lbnRvcl9wcm9maWxlX2NhcmRfdWNhN2Z1/preview",
+    img : "https://res.cloudinary.com/dau39qnjp/image/upload/v1695223568/portfolio/frontend_mentor_profile_card_uca7fu.png",
     disc : "A profile card page challenge from Frontend Mentor website"
   },
   {
-    img : "https://res-console.cloudinary.com/dau39qnjp/thumbnails/v1/image/upload/v1695223554/cG9ydGZvbGlvL2Zyb250ZW5kX21lbnRvcmVfcHJvZHVjdF9rOGJsZGg=/preview",
+    img : "https://res.cloudinary.com/dau39qnjp/image/upload/v1695223554/portfolio/frontend_mentore_product_k8bldh.png",
     disc : "A product card page challenge from Frontend Mentor website"
   },
   {
-    img : "https://res-console.cloudinary.com/dau39qnjp/thumbnails/v1/image/upload/v1695223568/cG9ydGZvbGlvL2Zyb250ZW5kX21lbnRvcl9yb29tX3NwY3R0eQ==/preview",
+    img : "https://res.cloudinary.com/dau39qnjp/image/upload/v1695223568/portfolio/frontend_mentor_room_spctty.png",
     disc : "A room homepage challenge from Frontend Mentor website"
   },
   {
-      img : "https://res-console.cloudinary.com/dau39qnjp/thumbnails/v1/image/upload/v1695223569/cG9ydGZvbGlvL2Jyb2NjYXJfaW1nX3lseHA0Mg==/preview",
+      img : "https://res.cloudinary.com/dau39qnjp/image/upload/v1695223569/portfolio/broccar_img_ylxp42.png",
       disc : "A furnitures store homepage."
   },
   {
-      img : "https://res-console.cloudinary.com/dau39qnjp/thumbnails/v1/image/upload/v1695223553/cG9ydGZvbGlvL1VudGl0bGVkMl90cmM3aTU=/preview",
+      img : "https://res.cloudinary.com/dau39qnjp/image/upload/v1695223567/portfolio/control_panel_ok3jdg.png",
       disc : "A fullstack project of LMS that I have worked in a team as a project while learning in ASAC"
   },
 {
-    img : "https://res-console.cloudinary.com/dau39qnjp/thumbnails/v1/image/upload/v1695223554/cG9ydGZvbGlvL2xvZ2luX2RnYnNoag==/preview",
+    img : "https://res.cloudinary.com/dau39qnjp/image/upload/v1695223554/portfolio/login_dgbshj.png",
     disc : "Login page of a fullstack project of LMS that I have worked in a team as a project while learning in ASAC"
 }
 ];
