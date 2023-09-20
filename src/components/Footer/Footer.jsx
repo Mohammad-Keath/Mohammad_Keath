@@ -60,6 +60,31 @@ const Footer = () => {
             <p>Al-Rawabi, Amman, Jordan</p>
           </Slide>
         </div>
+        <div className="links">
+          <Slide direction="left">
+            <h1>Contact me directly:</h1>
+          </Slide>
+          <div>
+            <span>
+              <FiPhoneCall />
+            </span>
+            <Slide direction="left">
+              <a href="tel:+962799304198">+962 799304198</a>
+            </Slide>
+          </div>
+          <div>
+            <Slide direction="left">
+              <span>
+                <HiOutlineMailOpen />
+              </span>
+            </Slide>
+            <Slide>
+              <a href="mailto:m.keath.z@gmail.com">M.KEATH.Z@GMAIL.COM</a>
+            </Slide>
+          </div>
+        </div>
+        </div>
+        <div className="right_bottom">
         <div className="profiles">
           <Slide direction="left">
             <h1>Check my profiles</h1>
@@ -95,31 +120,7 @@ const Footer = () => {
             </Zoom> */}
           </div>
         </div>
-        </div>
-        <div className="right_bottom">
-        <div className="links">
-          <Slide direction="left">
-            <h1>Contact me directly:</h1>
-          </Slide>
-          <div>
-            <span>
-              <FiPhoneCall />
-            </span>
-            <Slide direction="left">
-              <a href="tel:+96279304198">+962 79304198</a>
-            </Slide>
-          </div>
-          <div>
-            <Slide direction="left">
-              <span>
-                <HiOutlineMailOpen />
-              </span>
-            </Slide>
-            <Slide>
-              <a href="mailto:m.keath.z@gmail.com">M.KEATH.Z@GMAIL.COM</a>
-            </Slide>
-          </div>
-        </div>
+        
         <Fade>
           <ArrowUp onClick={scrollUp}>
             <AiOutlineArrowUp />
