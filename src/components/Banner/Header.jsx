@@ -1,17 +1,11 @@
 import React, { useState } from 'react'
 import styled from 'styled-components';
-import { GiCandleFlame } from "react-icons/gi";
-import MGZ from '../../assets/MGZ.png'
+
 
 const Header = () => {
     const [bar, setBar] = useState(false);
   return (
     <Container bar={bar}>
-        <img href={MGZ}/>
-        {/* <Logo>
-            <span className='green'><GiCandleFlame/></span>
-            <h1>Portfolio</h1>
-        </Logo> */}
         <Nav bar={bar}>
             <span><a href="#home">Home</a></span>
             <span><a href="#service">Services</a></span>
@@ -33,7 +27,7 @@ export default Header
 const Container = styled.div`
     display: flex;
     align-items: right;
-    justify-content: space-between;
+    justify-content: flex-end;
     max-width: 1280px;
     width: 80%;
     margin: 0 auto;
@@ -83,19 +77,7 @@ const Container = styled.div`
         }
     }
 `
-const Logo = styled.div`
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    span{
-        font-size: 1.8rem;
-    }
 
-    h1{
-        font-weight: 600;
-        font-size: 1.2rem;
-    }
-`
 const Nav = styled.div`
     @media(max-width:640px){
         position: fixed;

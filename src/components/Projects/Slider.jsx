@@ -3,31 +3,31 @@ import Slider from 'react-slick';
 import Project from './Project';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import styled from 'styled-components';
-import Login from '../../assets/Login.png'
-import Courses from '../../assets/Courses.png'
-import ControlPanel from '../../assets/Controlpanel.png'
-
 let data = [
-    {
-        img : {Login},
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
-    },
-    {
-        img : {Courses},
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
-    },
-    {
-        img : {ControlPanel},
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
-    },
-    {
-        img : {ControlPanel},
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
-    },
-    {
-        img : {},
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
-    }
+  {
+    img : "https://res-console.cloudinary.com/dau39qnjp/thumbnails/v1/image/upload/v1695223568/cG9ydGZvbGlvL2Zyb250ZW5kX21lbnRvcl9wcm9maWxlX2NhcmRfdWNhN2Z1/preview",
+    disc : "A profile card page challenge from Frontend Mentor website"
+  },
+  {
+    img : "https://res-console.cloudinary.com/dau39qnjp/thumbnails/v1/image/upload/v1695223554/cG9ydGZvbGlvL2Zyb250ZW5kX21lbnRvcmVfcHJvZHVjdF9rOGJsZGg=/preview",
+    disc : "A product card page challenge from Frontend Mentor website"
+  },
+  {
+    img : "https://res-console.cloudinary.com/dau39qnjp/thumbnails/v1/image/upload/v1695223568/cG9ydGZvbGlvL2Zyb250ZW5kX21lbnRvcl9yb29tX3NwY3R0eQ==/preview",
+    disc : "A room homepage challenge from Frontend Mentor website"
+  },
+  {
+      img : "https://res-console.cloudinary.com/dau39qnjp/thumbnails/v1/image/upload/v1695223569/cG9ydGZvbGlvL2Jyb2NjYXJfaW1nX3lseHA0Mg==/preview",
+      disc : "A furnitures store homepage."
+  },
+  {
+      img : "https://res-console.cloudinary.com/dau39qnjp/thumbnails/v1/image/upload/v1695223553/cG9ydGZvbGlvL1VudGl0bGVkMl90cmM3aTU=/preview",
+      disc : "A fullstack project of LMS that I have worked in a team as a project while learning in ASAC"
+  },
+{
+    img : "https://res-console.cloudinary.com/dau39qnjp/thumbnails/v1/image/upload/v1695223554/cG9ydGZvbGlvL2xvZ2luX2RnYnNoag==/preview",
+    disc : "Login page of a fullstack project of LMS that I have worked in a team as a project while learning in ASAC"
+}
 ];
 
 var settings = {
