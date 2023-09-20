@@ -43,13 +43,13 @@ const ProfComponent = () => {
             {/* <p>Check out my</p> */}
             <div className="social-icons" >
               <span>
-                <a target='_blank' href="https://github.com/Mohammad-Keath">
+                <a target='_blank' rel="noreferrer" href="https://github.com/Mohammad-Keath">
                   <AiOutlineGithub />
                 </a>
               </span>
             
               <span>
-                <a target='_blank' href="https://www.linkedin.com/in/mhd-keath-zaytowna/">
+                <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/mhd-keath-zaytowna/">
                   <FaLinkedinIn />
                 </a>
               </span>
