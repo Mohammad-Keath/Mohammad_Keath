@@ -89,8 +89,8 @@ const Footer = () => {
           <Slide direction="left">
             <h1>Check my profiles</h1>
           </Slide>
-          <div className="icons">
-            <Zoom>
+          <div id='bottom' className="icons">
+            <Zoom >
               <span>
                 <a href="https://github.com/Mohammad-Keath" target="_blank" rel="noreferrer" >
                   <AiFillGithub />

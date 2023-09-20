@@ -7,11 +7,26 @@ const Header = () => {
   return (
     <Container bar={bar}>
         <Nav bar={bar}>
-            <span><a href="#home">Home</a></span>
-            <span><a href="#service">Services</a></span>
-            <span><a href="#project">Projects</a></span>
-            {/* <span><a href="#client">Testimonials</a></span> */}
-            <span><a href="#footer">Contact Me</a></span>
+        <span>
+                    <a href="#home" onClick={() => setBar(!bar)}>
+                        Home
+                    </a>
+                </span>
+                <span>
+                    <a href="#service" onClick={() => setBar(!bar)}>
+                        Services
+                    </a>
+                </span>
+                <span>
+                    <a href="#project" onClick={() => setBar(!bar)}>
+                        Projects
+                    </a>
+                </span>
+                <span>
+                    <a href="#footer" onClick={() => setBar(!bar)}>
+                        Contact Me
+                    </a>
+                </span>
         </Nav>
         <div
         onClick={() => setBar(!bar)}
@@ -90,7 +105,7 @@ const Nav = styled.div`
         font-size: 2rem;
         gap: 2rem;
         font-weight: 700;
-        height: ${props => props.bar ? "100vh" : 0};
+        height: ${props => props.bar ? "100vh" : "0"}; // Update the height property here
         transition: height 400ms ease-in-out;
         overflow: hidden;
         z-index: 100;
