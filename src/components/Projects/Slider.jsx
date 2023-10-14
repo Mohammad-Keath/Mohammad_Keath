@@ -5,6 +5,10 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import styled from 'styled-components';
 let data = [
   {
+    img : "https://res.cloudinary.com/dau39qnjp/image/upload/v1697293392/portfolio/giityatutdef5y6utbtn.png",
+    disc : "LMS project using Next JS, Tailwind CSS, Node JS and Sequelize as final project in my deploma"
+  },
+  {
     img : "https://res.cloudinary.com/dau39qnjp/image/upload/v1695223568/portfolio/frontend_mentor_profile_card_uca7fu.png",
     disc : "A profile card page challenge from Frontend Mentor website"
   },

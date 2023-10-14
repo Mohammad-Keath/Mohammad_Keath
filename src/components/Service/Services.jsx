@@ -20,7 +20,7 @@ const Services = () => {
           <Card
             Icon={CgWebsite}
             title={"Web Developer"}
-            disc={`as a web developer, I work with HTML, CSS, JavaScript, React JS, React Hooks, Redux, Socket.io, Git, GitHub, and Jest`}
+            disc={`as a web developer, I work with HTML, CSS,Tailwind CSS, JavaScript,Next JS, React JS, React Hooks, Redux, Socket.io, Git, GitHub, and Jest`}
           />
         </Slide>
         <Slide direction="right">

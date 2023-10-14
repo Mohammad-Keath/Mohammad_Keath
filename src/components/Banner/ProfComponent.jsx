@@ -4,18 +4,10 @@ import { AiOutlineGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
 import ghyath from '../../assets/ghyath.jpeg'
-import CV from '../../assets/MHD-KEATH-2023-SEP.pdf'
+import CV from '../../assets/MHD-KEATH-2023-OCT.pdf'
 
 
 const ProfComponent = () => {
-  const handleDownload = () => {
-    const link = document.createElement('a');
-    link.href = CV;
-    link.setAttribute('download', CV);
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
   return (
     <Container id="home">
       <Slide direction="left">
@@ -38,7 +30,9 @@ const ProfComponent = () => {
           Highly motivated and skilled JavaScript developer, I have valuable knowledge in both front-end and 
           back-end technologies, allowing me to create dynamic and user-friendly web applications.
           </p>
-          <button onClick={handleDownload} >Download My CV</button>
+          <a href={CV} download>
+          <button >Download My CV</button>
+          </a>
           <Social>
             {/* <p>Check out my</p> */}
             <div className="social-icons" >
