@@ -1,7 +1,7 @@
 import React from "react";
 import { CgWebsite } from "react-icons/cg";
 import { FiCodesandbox } from "react-icons/fi";
-// import { DiAndroid,DiApple } from "react-icons/di";
+import { DiAndroid,DiApple } from "react-icons/di";
 import styled from "styled-components";
 import Card from "./Card";
 import { Slide } from "react-awesome-reveal";
@@ -20,7 +20,7 @@ const Services = () => {
           <Card
             Icon={CgWebsite}
             title={"Web Developer"}
-            disc={`as a web developer, I work with HTML, CSS,Tailwind CSS, JavaScript,Next JS, React JS, React Hooks, Redux, Socket.io, Git, GitHub, and Jest`}
+            disc={`as a web developer, I work with HTML, CSS, Tailwind CSS, JavaScript, Python, Next JS, React JS, React Hooks, Redux, Socket.io, Git, GitHub, and Jest`}
           />
         </Slide>
         <Slide direction="right">
@@ -30,14 +30,14 @@ const Services = () => {
             disc={`As a backend developer, I work with JavaScript, Node JS, PostgerSQL, Express, Jest, API, Authorization, Authentication, Linked List, Stack, Queues, Tree, Qraph and Hashmap`}
           />
         </Slide>
-        {/* <Slide direction="left">
+        <Slide direction="left">
           <Card
             Icon={DiAndroid}
-            title={"Android Applications"}
-            disc={`Crafting intuitive and user-focused Android applications is my passion. I harness the power of the Android platform to create applications that provide seamless experiences across various devices. From elegant UI design to efficient coding practices, I ensure that the apps I build are not only visually appealing but also deliver robust functionality and exceptional performance to meet the demands of today's mobile users.`}
+            title={"Applications Developer"}
+            disc={`As am application developer, I work with react native to build applications for both OS (android and ios)`}
           />
         </Slide>
-        <Slide direction="right">
+        {/* <Slide direction="right">
           <Card
             Icon={DiApple}
             title={"IOS Applications"}
@@ -52,7 +52,7 @@ const Services = () => {
 export default Services;
 
 const Container = styled.div`
-  width: 45%;
+  width: 60%;
   max-width: 1280px;
   margin: 0 auto;
   padding: 3rem 0;
@@ -68,5 +68,5 @@ const Cards = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   margin-top: 4rem;
-  gap: 5rem;
+  gap: 4rem;
 `;
