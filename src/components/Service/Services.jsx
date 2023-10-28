@@ -1,7 +1,7 @@
 import React from "react";
 import { CgWebsite } from "react-icons/cg";
 import { FiCodesandbox } from "react-icons/fi";
-import { DiAndroid,DiApple } from "react-icons/di";
+import { DiAndroid } from "react-icons/di";
 import styled from "styled-components";
 import Card from "./Card";
 import { Slide } from "react-awesome-reveal";
