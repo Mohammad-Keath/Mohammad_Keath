@@ -2,6 +2,7 @@ import React from "react";
 import { CgWebsite } from "react-icons/cg";
 import { FiCodesandbox } from "react-icons/fi";
 import { DiAndroid } from "react-icons/di";
+import { MdDesignServices } from "react-icons/md";
 import styled from "styled-components";
 import Card from "./Card";
 import { Slide } from "react-awesome-reveal";
@@ -37,13 +38,13 @@ const Services = () => {
             disc={`As am application developer, I work with react native to build applications for both OS (android and ios)`}
           />
         </Slide>
-        {/* <Slide direction="right">
+        <Slide direction="right">
           <Card
-            Icon={DiApple}
-            title={"IOS Applications"}
-            disc={`With a keen eye for detail and a commitment to excellence, I specialize in developing iOS applications that are both elegant and functional. Leveraging the capabilities of Apple's ecosystem, I create applications that provide a delightful user experience on iOS devices. From design to implementation, I work diligently to ensure that each app I develop aligns with the high standards set by Apple and resonates with users on the iOS platform.`}
+            Icon={MdDesignServices}
+            title={"Web designer"}
+            disc={`As a web deigner, I work with figma, adobe color`}
           />
-        </Slide> */}
+        </Slide>
       </Cards>
     </Container>
   );
@@ -52,7 +53,7 @@ const Services = () => {
 export default Services;
 
 const Container = styled.div`
-  width: 60%;
+  width: 70%;
   max-width: 1280px;
   margin: 0 auto;
   padding: 3rem 0;
@@ -68,5 +69,5 @@ const Cards = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   margin-top: 4rem;
-  gap: 4rem;
+  gap: 1rem;
 `;
