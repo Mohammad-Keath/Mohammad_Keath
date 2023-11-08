@@ -4,7 +4,7 @@ import { AiOutlineGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
 import ghyath from '../../assets/ghyath.jpeg'
-import CV from '../../assets/MHD-KEATH-2023-OCT.pdf'
+import CV from '../../assets/MHD-KEATH-2023-NOV.pdf'
 
 
 const ProfComponent = () => {
@@ -43,7 +43,7 @@ const ProfComponent = () => {
               </span>
             
               <span>
-                <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/mhd-keath-zaytowna/">
+                <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/mohammad-keath/">
                   <FaLinkedinIn />
                 </a>
               </span>

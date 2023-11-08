@@ -99,7 +99,7 @@ const Footer = () => {
             </Zoom>
             <Zoom>
               <span>
-                <a href="https://www.linkedin.com/in/mhd-keath-zaytowna/" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/mohammad-keath/" target="_blank" rel="noreferrer">
                   <AiFillLinkedin />
                 </a>
               </span>
